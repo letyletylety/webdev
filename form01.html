@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title>My Page</title>
+	</head>
+	<body>
+		<form action="#" method="POST" name="my_form">
+			<FIELDSET>
+				<legend align="center">Important Information</legend>
+				<label for="username">Username:</label>
+				<input type="text" name="username" ><br>
+				<label for="PASSWORD">password:</label>
+				<input type="PASSWORD" name="PASSWORD"><br>
+				<label for="gender">gender</label><br>
+				<input type="RADIO" name="gender" value="Male">Male<br>
+				<input type="RADIO" name="gender" value="Female">Female<br>
+				<label for="foods">favorite food</label><br>
+				<input type="CHECKBOX" name="foods" value="Grapes">Grapes<br>
+				<input type="CHECKBOX" name="foods" value="Apples">Apples<br>
+				<input type="CHECKBOX" name="foods" value="Bananas">Bananas<br>
+			</FIELDSET>
+			
+			<FIELDSET>
+				<legend align="center">Optional Items</legend>
+				<label for="essay">We want to know more about.<br>Write short essay
+					about yourself<br></label>
+				<textarea name="essay" rows="15" cols="30"></textarea><br>
+
+				<label for ="continents">Where are you from?</label>
+
+				<SELECT name="continents" id="continents">
+					<OPTGROUP label="Americas">
+						<option>North America</option>	
+						<option>South America</option>	
+					</OPTGROUP>
+					<optgroup label ="Eurasia">
+						<option>Europe</option>	
+						<option>Asia</option>	
+					</optgroup>
+					<option>Africa</option>	
+					<option>Australia</option>	
+					<option>Antarctica</option>	
+				</SELECT>
+				<br>
+			</FIELDSET>
+			<input type="SUBMIT" value="Onwards!">			
+		</form>
+	</body>
+</html>
